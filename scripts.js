@@ -12,6 +12,4 @@ function subtract(value){
   return value-4;
 }
 
-var x = add(multiply(subtract(10)));
-
-console.log(x);
+console.log(add(multiply(subtract(10))));
